@@ -1,0 +1,28 @@
+.slide{
+  position:absolute;
+  left: 0px;
+  top: 150px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+  background-color: red;
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+  background-color: rgb(236, 197, 241);
+}
+.quiz-container{
+ position: relative;
+  height: 500px;
+  margin-top: 80px;
+  background-color: green;
+}
+ .button-container{
+    position: fixed;
+    left: 0px;
+    top: 1500px;
+    width: 100%;
+    background-color: yellow;
+  } 
